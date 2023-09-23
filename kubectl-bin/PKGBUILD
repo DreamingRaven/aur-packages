@@ -17,6 +17,10 @@ provides=('kubectl')
 source=()
 b2sums=('becf49747002fa77c005d7660e2c104edd6048c1bf486cf6c1a01b13412d7c0ed1b66c18bf9d9f970883de79a858d8558c66b170903abb904dffd8c5be06d9fb')
 
+# if CARCH is not set default to x86_64
+# https://stackoverflow.com/a/11362364/11164973
+: "${CARCH:=x86_64}"
+
 case "$CARCH" in
   x86_64) _pkgarch="amd64"
     ;;
