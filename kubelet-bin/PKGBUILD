@@ -5,7 +5,7 @@
 pkgname=kubelet-bin
 pkgdesc="Kubernetes.io kubelet binary"
 pkgver=1.29.0 # renovate: datasource=github-tags depName=kubernetes/kubernetes
-pkgrel=2
+pkgrel=1
 arch=('x86_64' 'armv7l' 'armv7h' 'aarch64')
 url="http://kubernetes.io"
 license=('apache')
