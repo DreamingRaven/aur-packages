@@ -1,7 +1,7 @@
 pkgbase = cni-plugins-bin
 	pkgdesc = Container Networking Interface (CNI) Plugins
 	pkgver = 1.5.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.cni.dev/
 	arch = x86_64
 	arch = aarch64
