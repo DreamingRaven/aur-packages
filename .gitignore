@@ -11,6 +11,10 @@
 # log files from makepkg --log (or extra-x86_64-build)
 *.log
 
+# deb files
+*.deb
+*.udeb
+
 # subfolders, e.g. source or built package trees, vcs
 */**/
 !.github/**/
