@@ -11,7 +11,7 @@ license=('Apache')
 conflicts=('cni-plugins')
 provides=("cni-plugins=${pkgver}")
 source=()
-b2sums=('d0a9846fecbd1ea408a5a994cebf258fcdbe74428c31ce3925f8af22c3a3e3735b258055ba769a639df6891e8f85603178d60c1de311856bcb513bd7220bb814')
+b2sums=('5d37f6c1b121f003881b838aa8df1d4cbc0ffb9722381780cff436a254c8e25c41e45af028555fecfa3471cd32a211ee089ff8456d68f7a9a011f87a0472b098')
 
 # if CARCH is not set default to x86_64
 # https://stackoverflow.com/a/11362364/11164973
